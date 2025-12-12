@@ -1,0 +1,540 @@
+/*font-loading*/
+
+@font-face {
+    font-family: youblockhead;
+    src: url(fonts/YouBlockhead.ttf);
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: stat;
+    src: url(fonts/BowlbyOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: burb;
+    src: url(fonts/2abd7fab4997404e66575f40210e2f87.ttf);
+}
+
+
+/*formatage*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+/*sticky header*/
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(30,30,30);
+}
+
+
+
+/*flex*/
+
+.bandeau {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.lefttitle{
+    margin-top: 1%;
+    flex-basis: 42%;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardtitle { 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.elixir { 
+    position: absolute;
+    top: 140px;
+    left: 240px;
+    height: 100px;
+    }
+
+
+
+.titres{
+    font-family: youblockhead   ;
+    cursor: pointer;
+    font-size: 80px;
+    text-align: center;
+}
+
+.big{
+    font-size: 50px;
+}
+
+footer {
+    background-color: rgb(30,30,30);
+    padding: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 9%;
+    padding-right: 5;
+    padding-left: 10;
+    margin-bottom: 10%;
+}
+
+.row2 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.fwu {
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+/*blocs*/
+
+.reg {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 213, 241);
+    border-radius: 20px;
+    width: 200px;
+    height: 110px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.evo {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 213, 241);
+    border: 5px solid rgb(139, 102, 185);
+    border-radius: 20px;
+    width: 200px;
+    height: 110px;
+    margin-right: 6%;
+    margin-left: 6%;
+
+}
+
+.return {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 60px;
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    top: 40px;
+    left:40px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+
+}   
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+
+}  
+
+.sectionreturn {
+    display: flex;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    margin-left: 2%;
+}   
+
+
+.cards { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.carddesc { 
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.blocdesc{
+    outline: 10px solid rgb(198, 218, 240);
+    background-color: rgb(229, 236, 243);
+    border-radius: 20px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+
+}
+
+.videoinsert{ 
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.videoinsert2{ 
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.logotcg {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+
+
+/*texte*/
+
+.link {
+    color: transparent;
+}
+
+.link {
+    color: transparent;
+    margin-left: 5%;
+}
+
+.about {
+    font-family: youblockhead;
+    color: white;
+    margin-left: 15%;
+    width: 170px;
+}
+
+.contact {
+    font-family: youblockhead;
+    color: white;
+    border :2px solid;
+    border-radius: 7px;
+    align-items: center;
+    display: flex;
+    width: 140px;
+    height: 35px;
+    justify-content: center;
+    padding-top: 0.5%;
+}
+
+.seconnecter {
+    font-family: youblockhead;
+    justify-content:center;
+    color: rgb(30,30,30);
+    padding-top: 1%;
+    background-color: rgb(40,170, 230);
+    font-size: 100%;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.tcgit {
+    width: 320px;
+    font-family: youblockhead;
+    font-size: 120px;
+    text-align: center;
+}
+
+
+.trd {
+    font-family: youblockhead;
+    font-size: 45px;
+    color: rgb(30, 30, 30);
+    margin-top: 0.3%;
+}
+
+.evos {
+    font-family: youblockhead;
+    font-size: 45px;
+    margin-top: 0.3%;
+    color: blueviolet;
+     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.cartes {
+    font-family: youblockhead   ;
+    font-size: 20px;
+    cursor: pointer;
+    height: 47px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dec{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+.stat{
+    font-family: burb;
+    color: rgb(70, 80, 110);
+    font-size: 20px;
+    background-color: rgb(217, 228, 244);
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 2px;
+    box-shadow: 0px 3px rgb(132, 147, 164);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 10px;
+    height: 70px;
+    width: 390px;
+
+}
+
+.nbr{
+    font-family: youblockhead;
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke: #000 0.5px;
+    text-shadow:
+    0px 3px 0 black,
+    0px 1px 0 black,
+    0px 4px 0 black,
+    0px 2px 0 black;
+    
+
+}
+
+.evolution{ 
+    color: rgb(252, 205, 255);
+    background: -webkit-linear-gradient( left ,rgb(252, 205, 255), rgb(255 , 255, 255), rgb(255 , 105, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 60px;
+  
+    -webkit-text-stroke: black 1px;
+
+  }
+
+
+
+.spacer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 80, 110);
+    box-shadow: 0px 3px rgb(132, 147, 164);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+
+.tcg {
+    font-family: rubik;
+    color: white;
+    font-size: 30px;
+    margin-left: 20%;
+    font-weight: 600;
+}
+
+.follow {
+    font-family: youblockhead;
+    color: white;
+    font-size:20px;
+    margin-right: 1%;
+}
+
+
+
+/*images*/
+
+.logo {
+    margin-left: 2%;
+}
+
+.graph {
+    vertical-align: bottom;
+}
+
+.evoicon {
+    vertical-align: bottom;
+}
+
+.returnicon {
+   height: 50px;
+
+}
+
+
+.img1 {
+    height:450px ;
+}
+
+.inner{
+    background-color: rgb(40, 55, 80);
+    overflow: visible;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+
+}
+
+.info{
+    height: 40px;
+    position: absolute;
+    left: 90.5%;
+    top: 67.5%;
+}
+
+
+.info2{
+    height: 40px;
+    position: absolute;
+    left: 90.5%;
+    top: 76%;
+}
+
+.iconstat {
+    height: 60px;
+    margin-bottom: 6px; 
+
+}
+
+.back{
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.video{
+    border-radius: 20px;
+    height: 350px;
+}
+
+
+.logo3 {
+    height: 5Opx;
+    width: 50px;
+}
+
+.logo2 {
+    height: 60px;
+}
+
+.yt {
+    height: 30px;
+}
+
+.x {
+    height: 30px;
+}
+.ig {
+    height: 30px;
+}
+
+.fc {
+    height: 30px;
+}
+
+
+
+/*hover*/
+
+.seconnecter:hover {
+    cursor:pointer;
+}
+
+.contact:hover {
+    cursor:pointer;  
+}
+
+.about:hover {
+    cursor:pointer;
+}
+
+trend:hover {
+    cursor:pointer;
+}
+
+tcgit:hover {
+    cursor:pointer;
+}
+
+follow:hover {
+    cursor:pointer;
+}
+
+tcg:hover {
+    cursor:pointer;
+}
+

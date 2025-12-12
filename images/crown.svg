@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 99 99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #faeaaf;
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom_13);
+      }
+
+      .cls-3 {
+        fill: #495a88;
+      }
+
+      .cls-4 {
+        fill: #283c83;
+      }
+
+      .cls-5 {
+        fill: #f4ebd0;
+      }
+
+      .cls-6 {
+        fill: #b0cbea;
+      }
+
+      .cls-7 {
+        fill: #7a5418;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #3d2c1c;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-9 {
+        fill: #a5621a;
+      }
+
+      .cls-10 {
+        fill: #ffd114;
+      }
+
+      .cls-11 {
+        fill: #222d57;
+      }
+
+      .cls-12 {
+        fill: #6fa4d9;
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_13" data-name="Dégradé sans nom 13" x1="8.9" y1="49.5" x2="90.1" y2="49.5" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#fcea10"/>
+      <stop offset="1" stop-color="#f39200"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.8, SVG Export Plug-In . SVG Version: 1.2.0 Build 200)  -->
+  <g>
+    <g id="Calque_1">
+      <polygon class="cls-8" points="90.1 31.9 86.4 78.8 12.6 78.8 12.6 78.4 8.9 31.9 21.9 27.8 29.6 43.6 37 41.6 40.5 20.2 58.5 20.2 62 41.6 69.4 43.6 77.1 27.8 90.1 31.9"/>
+      <polygon class="cls-2" points="90.1 31.9 86.4 78.8 12.6 78.8 12.6 78.4 8.9 31.9 9.7 31.6 21.9 27.8 29.6 43.6 37 41.6 40.5 20.2 58.5 20.2 62 41.6 69.4 43.6 77.1 27.8 78.4 28.2 90.1 31.9"/>
+      <path class="cls-9" d="M86.4,78.4v.4H12.6v-.4c4.9-2,16.3-4.8,36.9-4.8s31.9,2.8,36.9,4.8Z"/>
+      <polyline class="cls-7" points="51.9 42 66.1 56.2 52 70.2 37.9 56.1"/>
+      <polygon class="cls-6" points="49.5 38.6 49.5 44.5 41.9 52 34.9 53.1 49.5 38.6"/>
+      <polygon class="cls-4" points="64.1 53.1 57.1 52 49.5 44.5 49.5 38.6 64.1 53.1"/>
+      <polygon class="cls-11" points="64.1 53.1 49.5 67.8 49.5 59.6 57.1 52 64.1 53.1"/>
+      <polygon class="cls-3" points="49.5 59.6 49.5 67.8 34.9 53.1 41.9 52 49.5 59.6"/>
+      <polygon class="cls-12" points="57.1 52 49.5 59.6 41.9 52 49.5 44.5 57.1 52"/>
+      <polygon class="cls-10" points="78.4 28.2 70.6 43.9 69.4 43.6 77.1 27.8 78.4 28.2"/>
+      <polygon class="cls-1" points="41.6 20.2 38 41.4 37 41.6 40.5 20.2 41.6 20.2"/>
+      <polygon class="cls-5" points="13.5 78.1 12.6 78.4 12.6 78.4 8.9 31.9 9.7 31.6 13.5 78.1"/>
+    </g>
+  </g>
+</svg>

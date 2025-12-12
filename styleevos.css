@@ -1,0 +1,348 @@
+/*font-loading*/
+
+@font-face {
+    font-family: youblockhead;
+    src: url(fonts/YouBlockhead.ttf);
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+
+
+
+/*formatage*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+/*sticky header*/
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(30,30,30);
+}
+
+
+
+/*flex*/
+
+.bandeau {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+footer {
+    background-color: rgb(30,30,30);
+    padding: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 9%;
+    padding-right: 5;
+    padding-left: 10;
+    margin-bottom: 10%;
+}
+
+.row2 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.fwu {
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+/*blocs*/
+
+.reg {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 213, 241);
+    border-radius: 20px;
+    width: 200px;
+    height: 110px;
+    margin-right: 3%;
+}
+
+.evo {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 213, 241);
+    border: 5px solid rgb(139, 102, 185);
+    border-radius: 20px;
+    width: 200px;
+    height: 110px;
+    margin-left: 3%;
+
+}
+
+.return {
+        display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    width: 200px;
+    height: 110px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 0.5%;
+}   
+
+.sectionreturn {
+    display: flex;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    margin-left: 2%;
+}   
+
+
+.cards {
+    justify-content: center;   
+    text-align: center;
+
+}
+
+.logotcg {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+
+
+/*texte*/
+
+.link {
+    color: transparent;
+}
+
+.link {
+    color: transparent;
+    margin-left: 5%;
+}
+
+.about {
+    font-family: youblockhead;
+    color: white;
+    margin-left: 15%;
+    width: 170px;
+}
+
+.contact {
+    font-family: youblockhead;
+    color: white;
+    border :2px solid;
+    border-radius: 7px;
+    align-items: center;
+    display: flex;
+    width: 140px;
+    height: 35px;
+    justify-content: center;
+    padding-top: 0.5%;
+}
+
+.seconnecter {
+    font-family: youblockhead;
+    justify-content:center;
+    color: rgb(30,30,30);
+    padding-top: 1%;
+    background-color: rgb(40,170, 230);
+    font-size: 100%;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.tcgit {
+    width: 320px;
+    font-family: youblockhead;
+    font-size: 120px;
+    text-align: center;
+}
+
+
+.trd {
+    font-family: youblockhead;
+    font-size: 45px;
+    color: rgb(30, 30, 30);
+    margin-top: 0.3%;
+}
+
+.evos {
+    font-family: youblockhead;
+    font-size: 45px;
+    margin-top: 0.3%;
+    color: blueviolet;
+     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.cartes {
+    font-family: youblockhead   ;
+    font-size: 20px;
+    cursor: pointer;
+    height: 47px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tcg {
+    font-family: rubik;
+    color: white;
+    font-size: 30px;
+    margin-left: 20%;
+    font-weight: 600;
+}
+
+.follow {
+    font-family: youblockhead;
+    color: white;
+    font-size:20px;
+    margin-right: 1%;
+}
+
+
+
+/*images*/
+
+.logo {
+    margin-left: 2%;
+}
+
+.graph {
+    vertical-align: bottom;
+}
+
+.evoicon {
+    vertical-align: bottom;
+}
+
+.returnicon {
+    height: 50px;
+}
+
+.img1 {
+    height:300px ;
+}
+
+.back{
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.video{
+    border-radius: 20px;
+}
+
+
+.logo3 {
+    height: 5Opx;
+    width: 50px;
+}
+
+.logo2 {
+    height: 60px;
+}
+
+.yt {
+    height: 30px;
+}
+
+.x {
+    height: 30px;
+}
+.ig {
+    height: 30px;
+}
+
+.fc {
+    height: 30px;
+}
+
+
+
+/*hover*/
+
+.seconnecter:hover {
+    cursor:pointer;
+}
+
+.contact:hover {
+    cursor:pointer;  
+}
+
+.about:hover {
+    cursor:pointer;
+}
+
+trend:hover {
+    cursor:pointer;
+}
+
+tcgit:hover {
+    cursor:pointer;
+}
+
+follow:hover {
+    cursor:pointer;
+}
+
+tcg:hover {
+    cursor:pointer;
+}
+
